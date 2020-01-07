@@ -1,2 +1,2 @@
-yarn install
+npm install
 web: node server.js
