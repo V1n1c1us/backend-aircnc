@@ -12,5 +12,11 @@ module.exports = {
         }
 
         return res.json(user);
+    },
+
+    index(req, res) {
+        return res.json({ oi: 'oi' });
     }
+
+
 }

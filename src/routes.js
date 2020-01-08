@@ -16,6 +16,8 @@ const BookingController = require('./controllers/BookingController');
 const routes = express.Router();
 const upload = multer(uploadConfig);
 
+routes.get('/', SessionController.index);
+
 routes.post('/sessions', SessionController.store);
 
 routes.get('/spots', SpotController.index);
