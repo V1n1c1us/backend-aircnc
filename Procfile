@@ -1,2 +1,1 @@
-web: node dev
-
+web: npm dev
