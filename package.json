@@ -7,7 +7,8 @@
     "yarn": "1.x"
   },
   "scripts": {
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "build": "webpack"
   },
   "dependencies": {
     "cors": "^2.8.5",
