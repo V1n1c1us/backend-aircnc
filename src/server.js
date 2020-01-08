@@ -1,4 +1,4 @@
-const PORT = process.env.PORT || 5000;
+const port = process.env.PORT || 5000;
 
 const express = require('express');
 const mongoose = require('mongoose')
@@ -20,4 +20,4 @@ app.use(express.json());
 app.use('/files', express.static(path.resolve(__dirname, '..', 'uploads')));
 app.use(routes);
 
-app.listen(PORT);
+app.listen(port);
