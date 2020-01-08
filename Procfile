@@ -1,1 +1,1 @@
-npm dev
+web: npm dev
